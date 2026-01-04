@@ -7,6 +7,7 @@ This repository contains a standardized checklist to ensure that web projects ar
 
 This project includes a professional, reusable **GoLiveChecklist** React component with:
 
+- **Landing Page**: Beautiful introduction page for developers and AI coding agents
 - **Progress Tracking**: Visual progress bar showing completion percentage
 - **24 Essential Tasks**: Organized into 4 categories (SEO, Legal, Accessibility, Technical)
 - **Persistent State**: Automatically saves progress to localStorage
@@ -15,6 +16,11 @@ This project includes a professional, reusable **GoLiveChecklist** React compone
 - **Modern Design**: Glassmorphism aesthetic with Tailwind CSS
 - **Full TypeScript**: Strict typing for reliability
 - **Mobile Responsive**: Works beautifully on all devices
+
+### Perfect For:
+- **Vibe Coders**: Intuitive, visual interface that makes pre-launch checks enjoyable
+- **Professional Developers**: Comprehensive coverage of production requirements
+- **AI Coding Agents**: Structured, parseable data for automated validation
 
 ## 📋 The Checklist
 
@@ -61,12 +67,13 @@ npm run build
 ```
 src/
 ├── components/
-│   └── GoLiveChecklist.tsx    # Main component
+│   ├── LandingPage.tsx        # Marketing/intro page
+│   └── GoLiveChecklist.tsx    # Main checklist component
 ├── data/
 │   └── checklistTasks.ts      # 24 tasks data
 ├── hooks/
 │   └── useChecklist.ts        # localStorage hook
-└── App.tsx                     # Demo page
+└── App.tsx                     # App with routing
 ```
 
 ## 🎯 Usage
